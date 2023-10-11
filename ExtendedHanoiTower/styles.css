@@ -1,0 +1,70 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    height: 100%;
+}
+
+.rods{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    max-width: 70rem;
+}
+
+.rod{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 1rem;
+    height: 51rem;
+    background-color: brown;
+    border: 1px solid brown;
+    border-radius: 5px;
+}
+
+.base{
+    width: 80rem;
+    height: 1rem;
+    background-color: brown;
+    margin-top: -2.2rem;
+}
+
+.btn{
+    border: 1px solid rgb(6, 223, 82);
+    background:rgb(6, 223, 82);
+    padding: 8px 16px;
+    color:black;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+.disk{
+    width: 10rem;
+    height: 1.5rem;
+    background-color: rgb(131, 241, 223);
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
